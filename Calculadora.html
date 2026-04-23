@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <div class="display">
+      <div id="conta" class="conta"></div>
+      <div id="resultado" class="resultado">0</div>
+    </div>
+
+    <div class="botoes">
+      <button class="btn limpar">C</button>
+      <button class="btn apagar">⌫</button>
+      <button class="btn operador">%</button>
+      <button class="btn operador">÷</button>
+
+      <button class="btn numero">7</button>
+      <button class="btn numero">8</button>
+      <button class="btn numero">9</button>
+      <button class="btn operador">×</button>
+
+      <button class="btn numero">4</button>
+      <button class="btn numero">5</button>
+      <button class="btn numero">6</button>
+      <button class="btn operador">-</button>
+
+      <button class="btn numero">1</button>
+      <button class="btn numero">2</button>
+      <button class="btn numero">3</button>
+      <button class="btn operador">+</button>
+
+      <button class="btn numero zero">0</button>
+      <button class="btn numero">.</button>
+      <button class="btn igual">=</button>
+    </div>
+  </div>
+
+  <button id="toggleHistorico" class="toggle">☰</button>
+
+  <div id="painelHistorico" class="painel-historico">
+    <h3>Histórico</h3>
+    <div id="historico"></div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
