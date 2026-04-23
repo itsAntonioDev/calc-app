@@ -17,11 +17,6 @@ Fiz essa calculadora usando HTML, CSS e JavaScript puro pra praticar lógica e m
 - CSS
 - JavaScript
 
-## Estrutura do projeto
-index.html
-style.css
-main.js
-
 ## Por que fiz isso?
 
 Queria sair do básico e fazer algo mais completo, com interface melhor e algumas funcionalidades a mais (tipo histórico e preview do resultado).
